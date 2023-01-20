@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+  
+  }
+  .board {
+  display: flex;
+  margin: 100px;
+  border-color: red;
+  
+  
+  }
+  .btn {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  border: solid grey;
+  background-color: grey;
+  }
+  .active {
+  border: 1rem solid red;
+  background-color: red;
+  }
